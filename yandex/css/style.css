@@ -1,4 +1,63 @@
-.wrapper{
-    max-width: 906px;
-    margin: 0 auto;
+@font-face {
+    font-family: "YS text black";
+    font-style: normal;
+    font-weight: 900;
+    src: local('YS text black'),
+        url("../fonts/text-black.woff") format("woff");
+  }
+@font-face {
+    font-family: "YS text medium";
+    font-style: normal;
+    font-weight: 900;
+    src: local('YS text medium'),
+        url("../fonts/text-medium.woff") format("woff");
+  }
+@font-face {
+    font-family: "YS text regular";
+    font-style: normal;
+    font-weight: 900;
+    src: local('YS text regular'),
+        url("../fonts/text-regular.woff") format("woff");
+  }
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  max-width: 906px;
+  margin: 0 auto;
+}
+
+/* Intro block - start */
+
+.intro__yandex-logo {
+  padding-top: 125px;
+  margin-bottom: 72px;
+}
+
+.intro__title {
+    max-width: 420px;
+    color: #21201F;
+    font-family: YS Text black;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 72px */
+    letter-spacing: -1.44px;
+    margin-bottom: 48px;
+}
+
+.intro_description{
+    color: #21201F;
+    font-family: YS Text medium;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 31.2px */
 }
